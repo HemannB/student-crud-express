@@ -1,0 +1,76 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+
+# Coverage
+coverage/
+
+# VSCode
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+
+# Cache
+.cache/
+.eslintcache
+
+# TypeScript
+*.tsbuildinfo
+
+# Sequelize
+database.sqlite
+database.sqlite-journal
+
+# Uploads (caso use multer)
+uploads/
+
+# PM2
+.pm2/
+
+# Parcel / Vite / Next cache
+.parcel-cache/
+.next/
+.nuxt/
+
+# Docker
+docker-compose.override.yml
+
+# Optional npm cache
+.npm
+
+# IDEs
+.idea/
+*.swp
+*.swo
